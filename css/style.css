@@ -1,0 +1,53 @@
+/*프리텐다드*/
+.contents_title_xxlarge { font-size: 84px; font-weight: 700; line-height: 150%; letter-spacing: -1px; }
+.contents_title_xlarge {font-size: 68px; font-weight: 700; line-height: 140%; letter-spacing: -1px; }
+.contents_title_large { font-size: 56px; font-weight: 700; line-height: 130%; letter-spacing: -1px; }
+.contents_title_medium { font-size: 42px; font-weight: 700; letter-spacing: -0.5px; }
+.contents_title_small { font-size: 30px; font-weight: 700; line-height: 140%; letter-spacing: -1px; }
+.contents_title_xsmall { font-size: 26px; font-weight: 700; letter-spacing: -0.5px; }
+
+.contents_article_large { font-size: 20px; font-weight: 600; line-height: 140%; }
+.contents_article_medium { font-size: 18px; line-height: 140%; letter-spacing: -1px; } /*두께 상이함*/
+.contents_article_medium_0 { font-size: 18px; line-height: 140%;  } 
+.contents_article_small { font-size: 16px; font-weight: 700; line-height: 160%; }
+.contents_article_small_r { font-size: 16px; font-weight: 400; line-height: 160%; }
+
+/*팝핀스*/
+.contents_poppins_title { font-size: 18px; line-height: 120%; letter-spacing: -1px; }
+
+/*버튼*/
+.btn_bk { 
+    height: 60px; padding: 0 22px; transition: .3s;
+    display: inline-flex; flex-wrap: wrap; align-items: center; gap: 24px;
+    font-family: "Pretendard Variable", Pretendard, sans-serif; color: #000;
+    font-size: 18px; font-weight: 500; letter-spacing: -1px; text-align: center;
+    border-radius: 10px; border: 1px  solid #000 ; box-sizing: border-box;
+}
+.btn_bk:hover { color: #fff; background: #000; }
+
+.btn_wh { 
+    height: 60px; padding: 0 22px; transition: .3s;
+    display: inline-flex; flex-wrap: wrap; align-items: center; gap: 16px;
+    font-family: "Pretendard Variable", Pretendard, sans-serif; color: #FFF;
+    font-size: 18px; font-weight: 500; letter-spacing: -1px; text-align: center;
+    border-radius: 10px; border: 1px solid #fff  ; box-sizing: border-box; 
+}
+.btn_wh:hover { color: #000; background: #fff; }
+
+.btn_bk span:last-child, .btn_wh span:last-child { font-size: 30px; }
+
+/* 버튼
+<a href="#" class="btn_bk">
+    <span>더 알아보기</span>
+    <span class="material-symbols-outlined">arrow_right_alt</span>
+</a>
+*/
+.contents_title_wrap_01 { 
+    width: 100%; margin-bottom: 72px; 
+    display: flex; flex-wrap: wrap; flex-direction: column; gap: 40px; 
+}
+
+.contents_title_wrap { 
+    width: 100%; margin-bottom: 72px;
+    display: flex; flex-wrap: wrap; flex-direction: column; gap: 16px; 
+}
